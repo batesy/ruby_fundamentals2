@@ -17,3 +17,6 @@ puts students.keys
 
 students.each { |k, v| students[k] = (v * 1.05).ceil.to_i }
 list(students)
+
+students.delete(:cohort2)
+list(students)
