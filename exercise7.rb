@@ -10,3 +10,7 @@ def list(pupils)
 end
 
 list(students)
+
+students[:cohort4] = 43
+
+puts students.keys
