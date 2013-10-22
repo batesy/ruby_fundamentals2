@@ -20,3 +20,9 @@ list(students)
 
 students.delete(:cohort2)
 list(students)
+
+puts
+
+total = 0
+students.each { |k, v| total += v }
+puts "Total number of students from all cohorts: #{total}"
