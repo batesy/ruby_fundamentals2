@@ -20,4 +20,9 @@ puts
 puts "The second item in the list is: #{grocery_list[1]}."
 puts
 puts "Shit! Everything here is stored alphabetically! Better sort the list:"
-list(grocery_list).sort
+list(grocery_list.sort)
+puts
+
+puts "Can't find the bacon... Deleting from list. New list:"
+grocery_list.delete("bacon")
+list(grocery_list.sort)
