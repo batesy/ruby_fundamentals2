@@ -11,3 +11,6 @@ else
 	puts "You need to pick up bananas today."
 	
 end
+puts
+
+puts "The second item in the list is: #{grocery_list[1]}."
