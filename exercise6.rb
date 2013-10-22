@@ -1,6 +1,10 @@
 grocery_list = ["eggs", "cheese", "bacon", "beer", "rice"]
 
-grocery_list.each {|i| puts "*#{i}"}
+def list(x)
+	x.each {|i| puts "*#{i}"}
+end
+
+list(grocery_list)
 
 puts "# of items on list: #{grocery_list.length}."
 puts
@@ -14,3 +18,6 @@ end
 puts
 
 puts "The second item in the list is: #{grocery_list[1]}."
+puts
+puts "Shit! Everything here is stored alphabetically! Better sort the list:"
+list(grocery_list).sort
