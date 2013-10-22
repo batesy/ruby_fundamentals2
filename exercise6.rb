@@ -1,2 +1,3 @@
 grocery_list = ["eggs", "cheese", "bacon", "beer"]
-puts grocery_list
+
+grocery_list.each {|i| puts "*#{i}"}
